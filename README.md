@@ -22,33 +22,21 @@ React / JavaScript を用いて開発した Web アプリケーションです�
 ## 🧩 機能一覧
 | カテゴリ | 内容 |
 |------------|------|
-| ユーザー管理 | 新規登録・ログイン・ログアウト・パスワード変更 |
-| データ登録 | フォーム入力によるデータ追加・バリデーション処理 |
-| データ検索 | キーワード検索・絞り込み検索・一覧表示 |
-| 更新／削除 | 登録データの編集・削除機能 |
-| セッション管理 | ログインユーザー情報の保持とアクセス制御 |
-| エラーハンドリング | 例外処理／404ページ／入力エラーメッセージ表示 |
-
+| 入力欄| タスクを入力 |
+| 追加ボタン | フォーム入力によるタスクの追加 |
+| タスク表示 | タスクの表示と完了と削除ボタン |
+| 完了時 | 消すのではなく何を完了したのかわかるように横線表示・未完了に戻すボタンも配置 |
 ---
 
-## 📂 ディレクトリ構成（例）
+## 📂 ディレクトリ構成
 ```
 project/
+├── index.html
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── servlet/
-│   │   │   │   ├── LoginServlet.java
-│   │   │   │   ├── RegisterServlet.java
-│   │   │   │   └── ListServlet.java
-│   │   │   └── dao/
-│   │   │       └── UserDAO.java
-│   │   ├── webapp/
-│   │   │   ├── WEB-INF/web.xml
-│   │   │   ├── jsp/login.jsp
-│   │   │   ├── jsp/register.jsp
-│   │   │   └── css/style.css
-│   └── test/
+│   ├──App.css
+│   ├──App.jsx
+│   ├──index.css
+│   ├──main.jsx
 └── README.md
 ```
 
@@ -62,15 +50,14 @@ project/
 ---
 
 ## 👤 作成者
-- **氏名（またはGitHubアカウント）**：Your Name  
-- **開発期間**：2025年○月〜○月  
-- **連絡先**：your-email@example.com  
-- **GitHub**：https://github.com/yourname/java-webapp-portfolio
+- GitHubアカウント：SHOTA-GHUB
+- 開発期間：2025年11月18日〜19日
+- GitHub：https://github.com/SHOTA-GHUB
 
 ---
 
 ## ✅ 最終更新日
-2025-11-11
+2025-11-28
 
 ---
 
